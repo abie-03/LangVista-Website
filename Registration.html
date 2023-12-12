@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url(bgimg1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-position: center; 
+            margin: 0; 
+            padding: 0;
+        }
+
+        h3 {
+            color: #007bff;
+        
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            color: #ddd;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        p {
+            margin-top: 20px;
+            text-align: center;
+            color: #ddd;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h3>Register and explore</h3>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" id="name" placeholder="Enter full name"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number:</td>
+            <td><input type="number" name="num" id="num"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+    </table>
+    <p>After submitting further details will be acknowledged through your registered mail.</p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+    
+</body>
+</html>
